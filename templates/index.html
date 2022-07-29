@@ -8,6 +8,11 @@
 </head>
 
 <body>
-    <p>Hello World</p>
+    <h1>Pokemons</h1>
+    <div class="Pokemons">    
+        {% for n in data %}
+            <li> {{ n }}</li>
+        {% endfor %}
+    </div>
 </body>
 </html>
